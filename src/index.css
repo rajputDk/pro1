@@ -1,0 +1,239 @@
+/*NavBar Css Start*/
+*{
+  margin:0px; padding:0px;box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+a{
+  text-decoration: none;   
+}
+a:hover{
+ text-decoration: none;
+}
+li{
+  list-style: none;
+}
+p{
+  font-size: 0.9rem;
+  line-height: 1.6;
+  font-weight: 400;
+}
+i{
+  color: cadetblue;
+}
+.logo{
+  color: rgb(206, 118, 118);
+  font-weight: bold;
+  font-size: 30px;
+  font-family: 'Poppins', sans-serif;
+}
+/* .header{
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0,168,255,0.3),rgba(0,168,255,0.3)), url('./images/man.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%; 
+  position: relative;
+} */
+.nav-item a{
+ color: white !important;
+ font-size: 25px;
+ margin :0px px;
+ font-weight: bold;
+}
+.nav-item a:hover{
+  color:blue !important;
+  font-size: 25px;
+  margin :0px px;
+  font-weight: bold;
+ }
+
+/*NavBar Css End*/
+
+/*home Css End*/
+.header-section{
+  position: relative;
+  width: 100%;
+  height: inherit;
+  color: white;
+  text-align: center;
+}
+.header-section{
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0,168,255,0.3),rgba(0,168,255,0.3)), url('./images/man.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%; 
+  position: relative;
+}
+.center-div{
+      position: absolute;
+      top: 300px;
+  text-align: center;
+  margin-left: 25%;
+  margin-right: 25%;
+      right: 406px;
+}
+.center-div h1 span{
+  color: red;
+} 
+.center-div p{
+  font-size: 20px;
+  font-weight: bold;
+}
+.header-buttons a{
+  border: 2px solid white;
+  margin: 0px 10px;
+  border-radius: 100px 100px;
+  font-size: 20px;
+  padding: 5px 10px;
+  color: rgb(194, 74, 74);
+  font-weight: bold;
+  
+}
+.header-buttons a:hover{
+color: lightblue;
+background: white;
+}
+
+
+/*homer Css End*/
+
+
+/*SERVICE PART STYLING START*/
+.servicepart{
+  background-color: rgb(238, 238, 238);
+  width: 100%;
+  height: auto;
+  margin-top: 30px;
+}
+.servicepart h2{
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+  color: lightblue;
+  text-align: center;
+}
+.myskills span{
+font-weight: bold;
+font-size: 18px;
+margin: 20px 0px;
+}
+
+.srcicon{
+  padding: 20px 20px;
+}
+.divII h3{
+  font-weight: bold;
+  font-size: 18px;
+  margin: 20px 10px;
+  font-family: 'Poppins', sans-serif;
+word-spacing: 8px;
+}
+  
+.divIIpara{
+  margin: -13px 10px;
+  text-align: justify;
+}
+/*SERVICE PART STYLING END*/
+
+/*main pricing css start*/
+.mainboxprice p{
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  color:black;
+  padding: 30px 0px;
+
+}
+.mainboxprice{
+  background-color: beige;
+  margin: 50px 0px;
+  width: 100%;
+  height: auto;
+  padding: 50px;
+  position: relative;
+  z-index: 1;
+}
+.mainboxprice:before{
+  content: "";
+  position: absolute;
+  top: 0%;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+  background: linear-gradient(160deg, #16c9f6 55%, #fff 0%);
+  z-index:  -1;
+}
+.card-body span{
+  color: rgb(0, 255, 34);
+  font-size: 40px;
+}
+.card{
+  transition: 0.5s ease;
+}
+.card-header{
+  font-size: 20px;
+  font-weight: bold;
+  padding: 25px 9!important;
+  color: white;
+  background-color: grey;
+  
+}
+.card-body li{
+  margin:10px 0px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.6;
+  
+}
+
+.card-footer{
+  background-color: lightgray;
+  padding: 30px 0px!important;
+}
+.card-footer a{
+  font-size: 20px;
+  border: 2px solid white;
+  border-radius: 20px 20px;
+  padding: 9px 10px;
+}
+.card-footer a:hover{
+  background-color: white;
+}
+.card:hover{
+  transform: translateY(-20px);
+  box-shadow:0 0 20px 0 rgba(0,0,0,0.3);
+}
+/*main pricing css end*/
+/* footer styling start*/
+        .footersection{
+            width: 100%;
+            height: auto;
+            padding: 70px 0 20px 0;
+            background: blue;
+            position: relative;
+        }
+        .footersection h3{
+            text-transform: uppercase;
+            color: white;
+            margin-bottom: 25px;
+            font-size: 20px;
+            font-weight: bold;
+            
+        }
+        .footersection p{
+                color: lightgrey;
+        
+        }
+        .footersection li a{
+            color: white;
+            font-weight: bold;
+        
+        }
+
+        /*main pricing css end*/
+
+        /*page error css start*/
+      
+  .pageerror{
+    margin: 80px  30px;
+  }
